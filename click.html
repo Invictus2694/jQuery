@@ -1,0 +1,50 @@
+<html>
+<head>
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <style>
+
+  	#circle{
+  		width: 150px;
+  		height: 150px;
+  		border-radius: 50%;
+  		margin: 10px;
+  		background-color: red;
+  	}
+
+  	.square{
+  		width: 150px;
+  		height: 150px;
+  		margin: 10px;
+  		background-color: blue;
+  	}
+
+  </style>
+
+
+</head>
+<body>
+
+<div id= "circle"></div>
+<div class="square"></div>
+<div class="square"></div>
+
+
+<script type="text/javascript">
+	
+	$("#circle").click(function () {
+		// body...
+		alert("a circle div was clicked");
+	})
+	$(".square").click(function () {
+		// body...
+		alert("a square div was clicked");
+	})
+
+</script>
+
+</body>
+</html>
